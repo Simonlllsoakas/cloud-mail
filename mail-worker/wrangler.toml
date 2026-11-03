@@ -46,7 +46,7 @@ admin = "simon@myvpsroot.top"					#管理员的邮箱	示例: admin@example.com
 #jwt_secret = ""			#jwt令牌的密钥,随便填一串字符串
 
 [[routes]]
-route = "mail.myvpsroot.top/*"
+pattern = "mail.myvpsroot.top/*"
 zone_name = "myvpsroot.top"
 
 [build]
